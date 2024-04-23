@@ -113,13 +113,13 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
 
 ### Aplicación de Estructuras de Datos (20%)
 
-Excelente (100%): Uso impecable de estructuras de datos adecuadas y complejas para mejorar la funcionalidad y eficiencia del sistema.
+   - Excelente (100%): Uso impecable de estructuras de datos adecuadas y complejas para mejorar la funcionalidad y eficiencia del sistema.
 
-Bueno (75%): Buen uso de estructuras de datos con pequeñas áreas para mejora. Mayoría de los principios aplicados correctamente.
+   - Bueno (75%): Buen uso de estructuras de datos con pequeñas áreas para mejora. Mayoría de los principios aplicados correctamente.
 
-Adecuado (50%): Uso básico de estructuras de datos pero con algunos conceptos aplicados incorrectamente o no utilizados donde serían beneficiosos.
+   - Adecuado (50%): Uso básico de estructuras de datos pero con algunos conceptos aplicados incorrectamente o no utilizados donde serían beneficiosos.
 
-Insuficiente (25%): Poca o incorrecta aplicación de estructuras de datos, o elección inapropiada de las mismas para las tareas requeridas.
+   - Insuficiente (25%): Poca o incorrecta aplicación de estructuras de datos, o elección inapropiada de las mismas para las tareas requeridas.
 
 ### Interfaz de Usuario (20%)
 
