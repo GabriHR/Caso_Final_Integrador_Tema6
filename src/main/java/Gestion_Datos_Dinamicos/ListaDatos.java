@@ -13,4 +13,10 @@ public class ListaDatos extends Observable {
         parejas = new ArrayList<>();
     }
 
+    public void addDatoReal(double datoReal) {
+        datosReales.add(datoReal);
+        setChanged();
+        notifyObservers();
+    }
+
 }
