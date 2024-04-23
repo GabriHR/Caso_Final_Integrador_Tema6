@@ -70,6 +70,12 @@ Esta clase es utilizada para crear una interfaz gráfica que le permita al usuar
    - Muestra un título y un texto de derechos de autor en la ventana.  
    - El método main inicia la aplicación creando una nueva instancia de la clase Main.
 
+# ENTREGABLES
+
+   - Software de Gestión y Análisis de Datos: Un programa interactivo que integre todas las funcionalidades mencionadas, con una interfaz de usuario que facilite su uso por parte de analistas, investigadores o cualquier persona interesada en la manipulación de datos complejos.
+
+   - Documento de Diseño y Especificaciones: Un informe detallado que incluya la descripción de cada módulo, ejemplos de uso, y explicaciones de cómo se manejan los datos y las estructuras en la aplicación.
+
 # CRITERIOS DE EVALUACIÓN
 ### Funcionalidad y Correctitud (25%)
 
