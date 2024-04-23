@@ -76,6 +76,20 @@ Esta clase es utilizada para crear una interfaz gráfica que le permita al usuar
 
    - Documento de Diseño y Especificaciones: Un informe detallado que incluya la descripción de cada módulo, ejemplos de uso, y explicaciones de cómo se manejan los datos y las estructuras en la aplicación.
 
+# EVALUACIÓN 
+
+Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimientos en un contexto real y significativo, promoviendo la innovación y la aplicación práctica de estructuras de datos y algoritmos para resolver problemas complejos de gestión y análisis de datos.
+
+Funcionalidad y Correctitud: ¿El sistema realiza todas las tareas requeridas de manera efectiva y produce resultados precisos?
+
+Eficiencia del Código: ¿Es el código bien estructurado, eficiente y fácil de entender?
+
+Aplicación de Estructuras de Datos: ¿Se utilizan las estructuras de datos apropiadas para cada funcionalidad de manera efectiva?
+
+Interfaz de Usuario: ¿La interfaz es intuitiva y facilita la manipulación y visualización de los datos?
+
+Documentación y Presentación: ¿Está bien documentado y presentado el diseño, la implementación y el uso de cada herramienta?
+
 # CRITERIOS DE EVALUACIÓN
 ### Funcionalidad y Correctitud (25%)
 
