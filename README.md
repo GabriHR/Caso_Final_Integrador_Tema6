@@ -69,3 +69,78 @@ Esta clase es utilizada para crear una interfaz gráfica que le permita al usuar
    - Maneja el redimensionamiento de una imagen cuando la ventana es redimensionada.  
    - Muestra un título y un texto de derechos de autor en la ventana.  
    - El método main inicia la aplicación creando una nueva instancia de la clase Main.
+
+# CRITERIOS DE EVALUACIÓN
+Funcionalidad y Correctitud (25%)
+
+Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
+
+Bueno (75%): La mayoría de las funcionalidades funcionan correctamente, con errores menores que no afectan la funcionalidad general.
+
+Adecuado (50%): Las funcionalidades básicas están presentes y funcionan, pero hay errores notables o problemas en casos extremos.
+
+Insuficiente (25%): Varios componentes no funcionan correctamente, afectando significativamente la usabilidad y efectividad del sistema.
+
+### Eficiencia del Código (20%)
+
+Excelente (100%): Código bien estructurado, eficiente y optimizado, fácil de entender y mantener.
+
+Bueno (75%): Código generalmente bien organizado y funcional con pequeñas áreas que podrían ser optimizadas.
+
+Adecuado (50%): Código funcional pero con espacio evidente para mejorar en términos de estructura, eficiencia y claridad.
+
+Insuficiente (25%): Código desordenado, ineficiente y difícil de entender o mantener.
+
+### Aplicación de Estructuras de Datos (20%)
+
+Excelente (100%): Uso impecable de estructuras de datos adecuadas y complejas para mejorar la funcionalidad y eficiencia del sistema.
+
+Bueno (75%): Buen uso de estructuras de datos con pequeñas áreas para mejora. Mayoría de los principios aplicados correctamente.
+
+Adecuado (50%): Uso básico de estructuras de datos pero con algunos conceptos aplicados incorrectamente o no utilizados donde serían beneficiosos.
+
+Insuficiente (25%): Poca o incorrecta aplicación de estructuras de datos, o elección inapropiada de las mismas para las tareas requeridas.
+
+### Interfaz de Usuario (20%)
+
+Excelente (100%): La interfaz es intuitiva, estéticamente agradable, y facilita una navegación fluida y una experiencia de usuario positiva.
+
+Bueno (75%): La interfaz es funcional y generalmente fácil de usar, pero con algunas áreas que podrían mejorarse para una mejor experiencia.
+
+Adecuado (50%): La interfaz cumple con los requisitos básicos, pero carece de refinamiento y claridad en algunos aspectos.
+
+Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente poco atractiva.
+
+### Documentación y Presentación (15%)
+
+Excelente (100%): Documentación y presentación excepcionales, incluyendo detalles completos, claros y bien organizados del sistema, con ejemplos y casos de prueba.
+
+Bueno (75%): Documentación y presentación bien realizadas con algunas áreas menores que podrían mejorarse.
+
+Adecuado (50%): Documentación y presentación básicas que cubren los requisitos pero carecen de detalles y claridad.
+
+Insuficiente (25%): Documentación y presentación pobres, faltan detalles importantes, y es difícil entender el sistema y su funcionamiento.
+
+Total de Puntos Posibles: 100
+
+### Escala de Calificación:
+
+90-100: Sobresaliente
+
+80-89: Muy Bueno
+
+70-79: Bueno
+
+60-69: Adecuado
+
+0-59: Insuficiente
+
+### Comentarios Adicionales:
+
+Se espera que los proyectos sean entregados en la fecha y hora acordadas. Las entregas tardías pueden afectar la calificación.
+
+Se alienta a los estudiantes a buscar retroalimentación y realizar revisiones durante el desarrollo para asegurar la calidad y funcionalidad del sistema.
+
+El trabajo debe ser original y propio del equipo. El plagio resultará en una calificación de cero.
+
+Esta rúbrica está diseñada para proporcionar una evaluación detallada y justa del proyecto final integrador, considerando varios aspectos críticos en el desarrollo de software, la aplicación de estructuras de datos, y la creación de interfaces de usuario.
