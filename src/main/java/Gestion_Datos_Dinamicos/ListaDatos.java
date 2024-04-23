@@ -25,4 +25,8 @@ public class ListaDatos extends Observable {
         notifyObservers();
     }
 
+    public List<Double> getDatosReales() {
+        return datosReales;
+    }
+
 }
