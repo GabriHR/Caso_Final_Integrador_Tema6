@@ -31,4 +31,10 @@ public class Analisis_Registros {
                 .collect(Collectors.toList());
     }
 
+    public List<Venta> filtrarRegistrosPorMes(int mes) {
+        return registros.stream()
+                .filter(venta -> venta.getFecha().getMonthValue() == mes)
+                .collect(Collectors.toList());
+    }
+
 }
