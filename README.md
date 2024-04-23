@@ -25,3 +25,6 @@ El proyecto consistirá en el desarrollo de una aplicación de software que inte
 ### 1. Gestión de Datos Dinámicos (Gestion_Datos_Dinamicos)
 Consiste en una interfaz gráfica que le permita al usuario escoger con que tipo de dato trabajar, listas de números o matrices, listas de datos reales o pares de números enteros.
 
+### 2. Análisis y Organización de Información
+
+En el módulo correspondiente al packager Analisis_Organizacion_Informacion, existe el código necesario para gestionar las ventas y transacciones bancarias. En el se controlan/manejan la fecha de dicha transacción, el cliente que la realiza y su nombre, el tipo de producto que es comprado y la cantidad que se compra él.
