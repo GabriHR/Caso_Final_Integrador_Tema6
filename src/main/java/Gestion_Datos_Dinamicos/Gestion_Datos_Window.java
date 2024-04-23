@@ -64,5 +64,9 @@ public class Gestion_Datos_Window extends JFrame {
     private void updateTextArea() {
         StringBuilder sb = new StringBuilder();
 
+        sb.append("Datos reales:\n");
+        for (Double datoReal : listaDatos.getDatosReales()) {
+            sb.append(datoReal).append("\n");
+        }
     }
 }
