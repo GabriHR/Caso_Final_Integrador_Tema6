@@ -37,4 +37,10 @@ public class Analisis_Registros {
                 .collect(Collectors.toList());
     }
 
+    public List<Venta> filtrarRegistrosPorAno(int ano) {
+        return registros.stream()
+                .filter(venta -> venta.getFecha().getYear() == ano)
+                .collect(Collectors.toList());
+    }
+
 }
