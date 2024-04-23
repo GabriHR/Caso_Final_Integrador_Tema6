@@ -15,4 +15,8 @@ public class Ordenacion_Busqueda {
         ventas.add(venta);
         ventas.sort(Comparator.comparing(Venta::getFecha));
     }
+
+    public List<Venta> getVentasOrdenadas() {
+        return ventas;
+    }
 }
