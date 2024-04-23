@@ -19,4 +19,8 @@ public class Venta {
         return cliente;
     }
 
+    public String getProducto() {
+        return producto;
+    }
+
 }
