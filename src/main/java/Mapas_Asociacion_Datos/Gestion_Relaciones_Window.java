@@ -33,4 +33,25 @@ public class Gestion_Relaciones_Window extends JFrame {
         setLocationRelativeTo(null); // Centrar la ventana en la pantalla
         setVisible(true);
     }
+
+    public void mostrarRelaciones() {
+        // Limpiar el JTextArea
+        textArea.setText("");
+
+        // Imprimir las relaciones en el JTextArea
+        for (int i = 0; i < 20; i++) {
+            if (relaciones.obtenerTexto(i) != null) {
+                textArea.append(i + " -> " + relaciones.obtenerTexto(i) + "\n");
+            }
+            if (recuperacion.obtenerLetra(i) != 0) {
+                textArea.append(i + " -> " + recuperacion.obtenerLetra(i) + "\n");
+            }
+        }
+
+        // Eliminar todas las relaciones después de la relación 20
+        for (int i = 20; i < 100; i++) {
+            relaciones.eliminarRelacion(i);
+            recuperacion.eliminarAsociacion(i);
+        }
+    }
 }
