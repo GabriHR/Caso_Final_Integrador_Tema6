@@ -6,14 +6,14 @@ LINK: https://github.com/GabriHR/Caso_Final_Integrador_Tema6.git
 
 
 ## Índice
-- [DESCRIPCIÓN](#descripción)
-- [MÓDULOS](#módulos)
+1. [DESCRIPCIÓN](#descripción)
+2. [MÓDULOS](#módulos)
    - [Gestión de Datos Dinámicos](#gestión-de-datos-dinámicos)
    - [Análisis y Organización de Información](#análisis-y-organización-de-información)
    - [Mapas y Asociación de Datos](#mapas-y-asociación-de-datos)
    - [Indexación y Visualización de Archivos](#indexación-y-visualización-de-archivos)
-- [CRITERIOS EVALUACIÓN](#criterios-evaluación)
-- [RUBRICA](#rubrica)
+3. [CRITERIOS EVALUACIÓN](#criterios-evaluación)
+4. [RÚBRICA](#rÚbrica)
 
 ## DESCRIPCIÓN
 
@@ -89,7 +89,7 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
 
    - Documentación y Presentación: ¿Está bien documentado y presentado el diseño, la implementación y el uso de cada herramienta?
 
-# CRITERIOS DE EVALUACIÓN
+# CRITERIOS DE EVALUACIÓN + RÚBRICA
 ### Funcionalidad y Correctitud (25%)
 
    - Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
@@ -153,6 +153,10 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
    - 60-69: Adecuado
 
    - 0-59: Insuficiente
+
+## RÚBRICA
+
+Objetivo: Evaluar la capacidad de los estudiantes para aplicar conceptos avanzados de programación y estructuras de datos en la creación de un sistema eficiente y efectivo de gestión y análisis de datos multidimensionales.
 
 ### Comentarios Adicionales:
 
