@@ -14,7 +14,7 @@ LINK: https://github.com/GabriHR/Caso_Final_Integrador_Tema6.git
    - 3. Mapas y Asociación de Datos
    - 4. Indexación y Visualización de Archivos
 - CRITERIOS EVALUACIÓN
-- RÚBRICA
+- <RÚBRICA>
 
 # DESCRIPCIÓN
 
