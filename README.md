@@ -133,13 +133,13 @@ Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente p
 
 ### Documentación y Presentación (15%)
 
-Excelente (100%): Documentación y presentación excepcionales, incluyendo detalles completos, claros y bien organizados del sistema, con ejemplos y casos de prueba.
+   - Excelente (100%): Documentación y presentación excepcionales, incluyendo detalles completos, claros y bien organizados del sistema, con ejemplos y casos de prueba.
 
-Bueno (75%): Documentación y presentación bien realizadas con algunas áreas menores que podrían mejorarse.
+   - Bueno (75%): Documentación y presentación bien realizadas con algunas áreas menores que podrían mejorarse.
 
-Adecuado (50%): Documentación y presentación básicas que cubren los requisitos pero carecen de detalles y claridad.
+   - Adecuado (50%): Documentación y presentación básicas que cubren los requisitos pero carecen de detalles y claridad.
 
-Insuficiente (25%): Documentación y presentación pobres, faltan detalles importantes, y es difícil entender el sistema y su funcionamiento.
+   - Insuficiente (25%): Documentación y presentación pobres, faltan detalles importantes, y es difícil entender el sistema y su funcionamiento.
 
 **Total de Puntos Posibles: 100**
 
