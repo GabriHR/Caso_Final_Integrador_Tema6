@@ -27,4 +27,7 @@ public class Venta {
         return cantidad;
     }
 
+    public LocalDate getFecha() {
+        return fecha;
+    }
 }
