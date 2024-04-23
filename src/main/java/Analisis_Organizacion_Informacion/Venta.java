@@ -15,4 +15,8 @@ public class Venta {
         this.fecha = fecha;
     }
 
+    public String getCliente() {
+        return cliente;
+    }
+
 }
