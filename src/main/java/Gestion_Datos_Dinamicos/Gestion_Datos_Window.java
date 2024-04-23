@@ -25,5 +25,14 @@ public class Gestion_Datos_Window extends JFrame {
         integerPairField1 = new JTextField();
         integerPairField2 = new JTextField();
 
+        inputPanel.add(new JLabel("Dato real:"));
+        inputPanel.add(realDataField);
+        inputPanel.add(new JLabel("Primer número del par:"));
+        inputPanel.add(integerPairField1);
+        inputPanel.add(new JLabel("Segundo número del par:"));
+        inputPanel.add(integerPairField2);
+
+        add(inputPanel, BorderLayout.NORTH);
+
     }
 }
