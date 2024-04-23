@@ -93,13 +93,13 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
 # CRITERIOS DE EVALUACIÓN
 ### Funcionalidad y Correctitud (25%)
 
-Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
+   - Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
 
-Bueno (75%): La mayoría de las funcionalidades funcionan correctamente, con errores menores que no afectan la funcionalidad general.
+   - Bueno (75%): La mayoría de las funcionalidades funcionan correctamente, con errores menores que no afectan la funcionalidad general.
 
-Adecuado (50%): Las funcionalidades básicas están presentes y funcionan, pero hay errores notables o problemas en casos extremos.
+   - Adecuado (50%): Las funcionalidades básicas están presentes y funcionan, pero hay errores notables o problemas en casos extremos.
 
-Insuficiente (25%): Varios componentes no funcionan correctamente, afectando significativamente la usabilidad y efectividad del sistema.
+   - Insuficiente (25%): Varios componentes no funcionan correctamente, afectando significativamente la usabilidad y efectividad del sistema.
 
 ### Eficiencia del Código (20%)
 
