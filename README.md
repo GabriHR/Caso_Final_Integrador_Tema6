@@ -22,7 +22,6 @@ El proyecto consistirá en el desarrollo de una aplicación de software que inte
 
 # MÓDULOS
 
-1. Gestión de Datos Dinámicos (Gestion_Datos_Dinamicos)
-
+### 1. Gestión de Datos Dinámicos (Gestion_Datos_Dinamicos)
 Consiste en una interfaz gráfica que le permita al usuario escoger con que tipo de dato trabajar, listas de números o matrices, listas de datos reales o pares de números enteros.
 
