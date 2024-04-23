@@ -39,3 +39,12 @@ Clases:
    - Clase Ordenacion_Busqueda: Esta clase representa una lista de objetos Venta y proporciona métodos para agregar ventas a la lista y recuperar la lista de ventas. Cuando se agrega una venta a la lista, la lista se ordena por la fecha de las ventas.
    - Clase Analisis_Registros: Esta clase representa una lista de objetos Venta y proporciona métodos para agregar ventas a la lista y filtrar la lista de ventas por varios criterios, incluyendo el cliente, el producto, el mes, el año y la fecha de la venta.
    - Clase Analisis_Window: Esta clase representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con una lista de ventas y realizar operaciones de análisis en ellas. La ventana muestra los datos de las ventas en una tabla y proporciona botones para ordenar y filtrar los datos.
+
+### 3. Mapas y Asociación de Datos (Mapas_Asociacion_Datos)
+
+Esta parte del código es la encargada de ayudar al usuario a gestionar y recuperar datos y credenciales de manera rápida y eficiente.
+
+Clases:
+   - Clase Gestion_Relaciones: Esta clase en Java representa un mapa de relaciones entre números enteros y cadenas de texto. Proporciona métodos para agregar una relación al mapa (agregarRelacion), eliminar una relación del mapa (eliminarRelacion) y obtener el texto asociado a un número (obtenerTexto).
+   - Clase Gestion_Relaciones_Window: Esta clase en Java representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con las relaciones almacenadas en las instancias de Gestion_Relaciones y Recuperacion_Eficiente. Proporciona un método para mostrar las relaciones (mostrarRelaciones) y un botón para volver al menú principal.
+   - Clase Recuperacion_Eficiente: Esta clase en Java representa un mapa de asociaciones entre números enteros y caracteres. Proporciona métodos para agregar una asociación al mapa (agregarAsociacion), eliminar una asociación del mapa (eliminarAsociacion) y obtener el carácter asociado a un número (obtenerLetra).
