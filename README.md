@@ -80,15 +80,15 @@ Esta clase es utilizada para crear una interfaz gráfica que le permita al usuar
 
 Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimientos en un contexto real y significativo, promoviendo la innovación y la aplicación práctica de estructuras de datos y algoritmos para resolver problemas complejos de gestión y análisis de datos.
 
-Funcionalidad y Correctitud: ¿El sistema realiza todas las tareas requeridas de manera efectiva y produce resultados precisos?
+   - Funcionalidad y Correctitud: ¿El sistema realiza todas las tareas requeridas de manera efectiva y produce resultados precisos?
 
-Eficiencia del Código: ¿Es el código bien estructurado, eficiente y fácil de entender?
+   - Eficiencia del Código: ¿Es el código bien estructurado, eficiente y fácil de entender?
 
-Aplicación de Estructuras de Datos: ¿Se utilizan las estructuras de datos apropiadas para cada funcionalidad de manera efectiva?
+   - Aplicación de Estructuras de Datos: ¿Se utilizan las estructuras de datos apropiadas para cada funcionalidad de manera efectiva?
 
-Interfaz de Usuario: ¿La interfaz es intuitiva y facilita la manipulación y visualización de los datos?
+   - Interfaz de Usuario: ¿La interfaz es intuitiva y facilita la manipulación y visualización de los datos?
 
-Documentación y Presentación: ¿Está bien documentado y presentado el diseño, la implementación y el uso de cada herramienta?
+   - Documentación y Presentación: ¿Está bien documentado y presentado el diseño, la implementación y el uso de cada herramienta?
 
 # CRITERIOS DE EVALUACIÓN
 ### Funcionalidad y Correctitud (25%)
