@@ -23,4 +23,8 @@ public class Venta {
         return producto;
     }
 
+    public double getCantidad() {
+        return cantidad;
+    }
+
 }
