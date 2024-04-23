@@ -71,7 +71,7 @@ Esta clase es utilizada para crear una interfaz gráfica que le permita al usuar
    - El método main inicia la aplicación creando una nueva instancia de la clase Main.
 
 # CRITERIOS DE EVALUACIÓN
-Funcionalidad y Correctitud (25%)
+### Funcionalidad y Correctitud (25%)
 
 Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
 
