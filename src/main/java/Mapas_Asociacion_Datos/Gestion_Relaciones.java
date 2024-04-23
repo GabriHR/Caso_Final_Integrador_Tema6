@@ -20,4 +20,8 @@ public class Gestion_Relaciones {
             relaciones.remove(index);
         }
     }
+
+    public String obtenerTexto(int numero) {
+        return relaciones.get(numero);
+    }
 }
