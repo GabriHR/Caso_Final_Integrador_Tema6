@@ -2,6 +2,8 @@ package Gestion_Datos_Dinamicos;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Gestion_Datos_Window extends JFrame {
 
@@ -33,6 +35,34 @@ public class Gestion_Datos_Window extends JFrame {
         inputPanel.add(integerPairField2);
 
         add(inputPanel, BorderLayout.NORTH);
+
+        JButton addButton = new JButton("Agregar datos");
+        addButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double realData = Double.parseDouble(realDataField.getText());
+                int integer1 = Integer.parseInt(integerPairField1.getText());
+                int integer2 = Integer.parseInt(integerPairField2.getText());
+
+                listaDatos.addDatoReal(realData);
+                listaDatos.addPareja(new Pareja(integer1, integer2));
+
+                updateTextArea();
+            }
+        });
+
+        add(addButton, BorderLayout.SOUTH);
+
+        updateTextArea();
+
+        setSize(400, 300); // Ajusta el tamaño de la ventana a tus necesidades
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        setLocationRelativeTo(null); // Centra la ventana en la pantalla
+        setVisible(true);
+    }
+
+    private void updateTextArea() {
+        StringBuilder sb = new StringBuilder();
 
     }
 }
