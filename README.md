@@ -5,16 +5,15 @@ Caso Final Integrador del Tema 6 desarrollado por Gabriel Hernanz Rodríguez.
 LINK: https://github.com/GabriHR/Caso_Final_Integrador_Tema6.git
 
 
-## ÍNDICE
-
-- DESCRIPCIÓN
-- MÓDULOS
-   - 1. Gestión de Datos Dinámicos
-   - 2. Análisis y Organización de Información
-   - 3. Mapas y Asociación de Datos
-   - 4. Indexación y Visualización de Archivos
-- CRITERIOS EVALUACIÓN
-- RUBRICA
+## Índice
+1. [DESCRIPCIÓN](#descripción)
+2. [MÓDULOS](#módulos)
+   - [Gestión de Datos Dinámicos](#gestión-de-datos-dinámicos)
+   - [Análisis y Organización de Información](#análisis-y-organización-de-información)
+   - [Mapas y Asociación de Datos](#mapas-y-asociación-de-datos)
+   - [Indexación y Visualización de Archivos](#indexación-y-visualización-de-archivos)
+3. [CRITERIOS EVALUACIÓN](#criterios-evaluación)
+4. [RUBRICA](#rubrica)
 
 ## DESCRIPCIÓN
 
