@@ -9,4 +9,8 @@ public class Gestion_Relaciones {
     public Gestion_Relaciones() {
         relaciones = new HashMap<>();
     }
+
+    public void agregarRelacion(int numero, String texto) {
+        relaciones.put(numero, texto);
+    }
 }
