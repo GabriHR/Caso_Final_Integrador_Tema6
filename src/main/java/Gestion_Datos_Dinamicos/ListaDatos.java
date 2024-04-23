@@ -19,4 +19,10 @@ public class ListaDatos extends Observable {
         notifyObservers();
     }
 
+    public void addPareja(Pareja pareja) {
+        parejas.add(pareja);
+        setChanged();
+        notifyObservers();
+    }
+
 }
