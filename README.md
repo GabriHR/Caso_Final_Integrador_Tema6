@@ -145,15 +145,15 @@ Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente p
 
 ### Escala de Calificación:
 
-90-100: Sobresaliente
+   - 90-100: Sobresaliente
 
-80-89: Muy Bueno
+   - 80-89: Muy Bueno
 
-70-79: Bueno
+   - 70-79: Bueno
 
-60-69: Adecuado
+   - 60-69: Adecuado
 
-0-59: Insuficiente
+   - 0-59: Insuficiente
 
 ### Comentarios Adicionales:
 
