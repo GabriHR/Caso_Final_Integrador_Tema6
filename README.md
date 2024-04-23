@@ -9,7 +9,7 @@ LINK: https://github.com/GabriHR/Caso_Final_Integrador_Tema6.git
 
 - Descripción
 - Módulos
-   1. Gestión de Datos Dinámicos
-   2. Análisis y Organización de Información
-   3. Mapas y Asociación de Datos
-   4. Indexación y Visualización de Archivos
+   - 1. Gestión de Datos Dinámicos
+   - 2. Análisis y Organización de Información
+   - 3. Mapas y Asociación de Datos
+   - 4. Indexación y Visualización de Archivos
