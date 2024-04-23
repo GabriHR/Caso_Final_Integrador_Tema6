@@ -123,13 +123,13 @@ Insuficiente (25%): Poca o incorrecta aplicación de estructuras de datos, o ele
 
 ### Interfaz de Usuario (20%)
 
-Excelente (100%): La interfaz es intuitiva, estéticamente agradable, y facilita una navegación fluida y una experiencia de usuario positiva.
+   - Excelente (100%): La interfaz es intuitiva, estéticamente agradable, y facilita una navegación fluida y una experiencia de usuario positiva.
 
-Bueno (75%): La interfaz es funcional y generalmente fácil de usar, pero con algunas áreas que podrían mejorarse para una mejor experiencia.
+   - Bueno (75%): La interfaz es funcional y generalmente fácil de usar, pero con algunas áreas que podrían mejorarse para una mejor experiencia.
 
-Adecuado (50%): La interfaz cumple con los requisitos básicos, pero carece de refinamiento y claridad en algunos aspectos.
+   - Adecuado (50%): La interfaz cumple con los requisitos básicos, pero carece de refinamiento y claridad en algunos aspectos.
 
-Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente poco atractiva.
+   - Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente poco atractiva.
 
 ### Documentación y Presentación (15%)
 
