@@ -157,10 +157,10 @@ Insuficiente (25%): La interfaz es confusa, difícil de navegar, o visualmente p
 
 ### Comentarios Adicionales:
 
-Se espera que los proyectos sean entregados en la fecha y hora acordadas. Las entregas tardías pueden afectar la calificación.
+   - Se espera que los proyectos sean entregados en la fecha y hora acordadas. Las entregas tardías pueden afectar la calificación.
 
-Se alienta a los estudiantes a buscar retroalimentación y realizar revisiones durante el desarrollo para asegurar la calidad y funcionalidad del sistema.
+   - Se alienta a los estudiantes a buscar retroalimentación y realizar revisiones durante el desarrollo para asegurar la calidad y funcionalidad del sistema.
 
-El trabajo debe ser original y propio del equipo. El plagio resultará en una calificación de cero.
+   - El trabajo debe ser original y propio del equipo. El plagio resultará en una calificación de cero.
 
 Esta rúbrica está diseñada para proporcionar una evaluación detallada y justa del proyecto final integrador, considerando varios aspectos críticos en el desarrollo de software, la aplicación de estructuras de datos, y la creación de interfaces de usuario.
