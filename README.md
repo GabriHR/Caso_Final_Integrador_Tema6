@@ -34,3 +34,8 @@ Clases:
 
 En el módulo correspondiente al packager Analisis_Organizacion_Informacion, existe el código necesario para gestionar las ventas y transacciones bancarias. En el se controlan/manejan la fecha de dicha transacción, el cliente que la realiza y su nombre, el tipo de producto que es comprado y la cantidad que se compra él.
 
+Clases: 
+   - Clase Venta: Esta clase representa una venta realizada. Cada objeto Venta tiene cuatro atributos: cliente, producto, cantidad y fecha. La clase proporciona métodos getter para recuperar estos valores.
+   - Clase Ordenacion_Busqueda: Esta clase representa una lista de objetos Venta y proporciona métodos para agregar ventas a la lista y recuperar la lista de ventas. Cuando se agrega una venta a la lista, la lista se ordena por la fecha de las ventas.
+   - Clase Analisis_Registros: Esta clase representa una lista de objetos Venta y proporciona métodos para agregar ventas a la lista y filtrar la lista de ventas por varios criterios, incluyendo el cliente, el producto, el mes, el año y la fecha de la venta.
+   - Clase Analisis_Window: Esta clase representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con una lista de ventas y realizar operaciones de análisis en ellas. La ventana muestra los datos de las ventas en una tabla y proporciona botones para ordenar y filtrar los datos.
