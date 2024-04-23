@@ -8,4 +8,11 @@ public class Venta {
     private double cantidad;
     private LocalDate fecha;
 
+    public Venta(String cliente, String producto, double cantidad, LocalDate fecha) {
+        this.cliente = cliente;
+        this.producto = producto;
+        this.cantidad = cantidad;
+        this.fecha = fecha;
+    }
+
 }
