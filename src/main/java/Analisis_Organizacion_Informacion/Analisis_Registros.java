@@ -2,8 +2,6 @@ package Analisis_Organizacion_Informacion;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.time.LocalDate;
 
 public class Analisis_Registros {
     private List<Venta> registros;
@@ -14,6 +12,16 @@ public class Analisis_Registros {
 
     public void agregarRegistro(Venta venta) {
         registros.add(venta);
+    }
+
+    public List<Venta> filtrarRegistrosPorCliente(String cliente) {
+        List<Venta> ventasFiltradas = new ArrayList<>();
+        for (Venta venta : registros) {
+            if (venta.getCliente().equalsIgnoreCase(cliente)) {
+                ventasFiltradas.add(venta);
+            }
+        }
+        return ventasFiltradas;
     }
 
 }
