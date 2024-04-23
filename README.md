@@ -59,3 +59,13 @@ Clases:
    - Clase Indexacion_Recursiva: Esta clase en Java representa un índice de rutas de archivos en un sistema de archivos. Proporciona métodos para insertar rutas en el índice, buscar rutas en el índice y obtener una lista de todas las rutas indexadas.  
    - Clase Indexacion_Recursiva_Window: Esta clase en Java representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con la indexación recursiva de archivos. Proporciona un botón para iniciar la indexación recursiva de un directorio y un área de texto para ver las rutas indexadas.  
    - Clase Ordenacion_Listado: Esta clase en Java representa una interfaz gráfica de usuario (GUI) que permite al usuario seleccionar archivos y ver sus nombres y rutas en orden alfabético. Proporciona un botón para seleccionar más archivos y otro botón para volver al menú principal.
+
+### Main.java
+
+Esta clase es utilizada para crear una interfaz gráfica que le permita al usuario interactuar las diferentes funcionalidades de gestión y análisis de datos.
+   - Inicializa varias instancias de clases como ListaDatos, Ordenacion_Busqueda, Analisis_Registros, Gestion_Relaciones, Recuperacion_Eficiente y un área de texto.  
+   - Configura una serie de botones que permiten al usuario interactuar con las funcionalidades de la aplicación, como agregar datos, realizar análisis de registros, gestionar relaciones, realizar recuperación eficiente de datos, iniciar indexación recursiva y ordenar y listar archivos.  
+   - Implementa la interfaz Observer para actualizar el área de texto cuando los datos observados cambian.  
+   - Maneja el redimensionamiento de una imagen cuando la ventana es redimensionada.  
+   - Muestra un título y un texto de derechos de autor en la ventana.  
+   - El método main inicia la aplicación creando una nueva instancia de la clase Main.
