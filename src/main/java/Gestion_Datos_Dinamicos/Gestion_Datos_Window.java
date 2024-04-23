@@ -68,5 +68,12 @@ public class Gestion_Datos_Window extends JFrame {
         for (Double datoReal : listaDatos.getDatosReales()) {
             sb.append(datoReal).append("\n");
         }
+
+        sb.append("\nPares de números enteros:\n");
+        for (Pareja pareja : listaDatos.getParejas()) {
+            sb.append("(").append(pareja.getPrimero()).append(", ").append(pareja.getSegundo()).append(")\n");
+        }
+
+        textArea.setText(sb.toString());
     }
 }
