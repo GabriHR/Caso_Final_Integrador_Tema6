@@ -2,6 +2,7 @@ package Analisis_Organizacion_Informacion;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Analisis_Registros {
     private List<Venta> registros;
@@ -22,6 +23,12 @@ public class Analisis_Registros {
             }
         }
         return ventasFiltradas;
+    }
+
+    public List<Venta> filtrarRegistrosPorProducto(String producto) {
+        return registros.stream()
+                .filter(venta -> venta.getProducto().equals(producto))
+                .collect(Collectors.toList());
     }
 
 }
