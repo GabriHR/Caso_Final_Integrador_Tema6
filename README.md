@@ -103,13 +103,13 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
 
 ### Eficiencia del Código (20%)
 
-Excelente (100%): Código bien estructurado, eficiente y optimizado, fácil de entender y mantener.
+   - Excelente (100%): Código bien estructurado, eficiente y optimizado, fácil de entender y mantener.
 
-Bueno (75%): Código generalmente bien organizado y funcional con pequeñas áreas que podrían ser optimizadas.
+   - Bueno (75%): Código generalmente bien organizado y funcional con pequeñas áreas que podrían ser optimizadas.
 
-Adecuado (50%): Código funcional pero con espacio evidente para mejorar en términos de estructura, eficiencia y claridad.
+   - Adecuado (50%): Código funcional pero con espacio evidente para mejorar en términos de estructura, eficiencia y claridad.
 
-Insuficiente (25%): Código desordenado, ineficiente y difícil de entender o mantener.
+   - Insuficiente (25%): Código desordenado, ineficiente y difícil de entender o mantener.
 
 ### Aplicación de Estructuras de Datos (20%)
 
