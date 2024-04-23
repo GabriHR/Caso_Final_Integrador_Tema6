@@ -121,7 +121,7 @@ Adecuado (50%): Documentación y presentación básicas que cubren los requisito
 
 Insuficiente (25%): Documentación y presentación pobres, faltan detalles importantes, y es difícil entender el sistema y su funcionamiento.
 
-Total de Puntos Posibles: 100
+<u>Total de Puntos Posibles: 100</u>
 
 ### Escala de Calificación:
 
