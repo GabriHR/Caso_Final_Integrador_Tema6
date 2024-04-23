@@ -48,3 +48,14 @@ Clases:
    - Clase Gestion_Relaciones: Esta clase en Java representa un mapa de relaciones entre números enteros y cadenas de texto. Proporciona métodos para agregar una relación al mapa (agregarRelacion), eliminar una relación del mapa (eliminarRelacion) y obtener el texto asociado a un número (obtenerTexto).
    - Clase Gestion_Relaciones_Window: Esta clase en Java representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con las relaciones almacenadas en las instancias de Gestion_Relaciones y Recuperacion_Eficiente. Proporciona un método para mostrar las relaciones (mostrarRelaciones) y un botón para volver al menú principal.
    - Clase Recuperacion_Eficiente: Esta clase en Java representa un mapa de asociaciones entre números enteros y caracteres. Proporciona métodos para agregar una asociación al mapa (agregarAsociacion), eliminar una asociación del mapa (eliminarAsociacion) y obtener el carácter asociado a un número (obtenerLetra).
+
+### 4. Indexación y Visualización de Archivos (Indexacion_Visualizacion_Archivos)
+
+Esta formado por un conjunto de clases que proporcionan al usuario, la opción/funcionalidad de indexar y listar archivos en un directorio dado. Los archivos se pueden buscar por su nombre o directamente navegando en el Explorador de Archivos de la computadora. Además, todos los archivos seleccionados se añadirán a una lista (cada uno con su ruta correspondiente) y podrán ser ordenados alfabéticamente.
+
+Clases:
+
+   - Clase Nodo: Esta clase en Java representa un nodo en un árbol de búsqueda de trie. Cada nodo puede tener varios hijos, donde cada hijo se identifica por un carácter. Un nodo puede representar el final de una ruta en el árbol de búsqueda de trie.  
+   - Clase Indexacion_Recursiva: Esta clase en Java representa un índice de rutas de archivos en un sistema de archivos. Proporciona métodos para insertar rutas en el índice, buscar rutas en el índice y obtener una lista de todas las rutas indexadas.  
+   - Clase Indexacion_Recursiva_Window: Esta clase en Java representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con la indexación recursiva de archivos. Proporciona un botón para iniciar la indexación recursiva de un directorio y un área de texto para ver las rutas indexadas.  
+   - Clase Ordenacion_Listado: Esta clase en Java representa una interfaz gráfica de usuario (GUI) que permite al usuario seleccionar archivos y ver sus nombres y rutas en orden alfabético. Proporciona un botón para seleccionar más archivos y otro botón para volver al menú principal.
