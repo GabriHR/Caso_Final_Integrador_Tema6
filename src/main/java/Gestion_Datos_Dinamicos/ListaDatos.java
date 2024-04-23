@@ -29,4 +29,7 @@ public class ListaDatos extends Observable {
         return datosReales;
     }
 
+    public List<Pareja> getParejas() {
+        return parejas;
+    }
 }
