@@ -6,14 +6,14 @@ LINK: https://github.com/GabriHR/Caso_Final_Integrador_Tema6.git
 
 
 ## Índice
-1. [DESCRIPCIÓN](#descripción)
-2. [MÓDULOS](#módulos)
+- [DESCRIPCIÓN](#descripción)
+- [MÓDULOS](#módulos)
    - [Gestión de Datos Dinámicos](#gestión-de-datos-dinámicos)
    - [Análisis y Organización de Información](#análisis-y-organización-de-información)
    - [Mapas y Asociación de Datos](#mapas-y-asociación-de-datos)
    - [Indexación y Visualización de Archivos](#indexación-y-visualización-de-archivos)
-3. [CRITERIOS EVALUACIÓN](#criterios-evaluación)
-4. [RUBRICA](#rubrica)
+- [CRITERIOS EVALUACIÓN](#criterios-evaluación)
+- [RUBRICA](#rubrica)
 
 ## DESCRIPCIÓN
 
