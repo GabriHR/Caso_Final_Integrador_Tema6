@@ -9,7 +9,7 @@ public class Gestion_Datos_Window extends JFrame {
 
     private JTextArea textArea;
     private ListaDatos listaDatos;
-    private JTextField realDataField;
+    private static JTextField realDataField;
     private JTextField integerPairField1;
     private JTextField integerPairField2;
 
@@ -75,5 +75,9 @@ public class Gestion_Datos_Window extends JFrame {
         }
 
         textArea.setText(sb.toString());
+    }
+
+    public static JTextField getRealDataField() {
+        return realDataField;
     }
 }
