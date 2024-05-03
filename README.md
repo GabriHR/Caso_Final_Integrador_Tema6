@@ -48,6 +48,7 @@ Clases:
    - Clase Gestion_Relaciones: Esta clase en Java representa un mapa de relaciones entre números enteros y cadenas de texto. Proporciona métodos para agregar una relación al mapa (agregarRelacion), eliminar una relación del mapa (eliminarRelacion) y obtener el texto asociado a un número (obtenerTexto).
    - Clase Gestion_Relaciones_Window: Esta clase en Java representa una ventana de interfaz gráfica de usuario (GUI) que permite al usuario interactuar con las relaciones almacenadas en las instancias de Gestion_Relaciones y Recuperacion_Eficiente. Proporciona un método para mostrar las relaciones (mostrarRelaciones) y un botón para volver al menú principal.
    - Clase Recuperacion_Eficiente: Esta clase en Java representa un mapa de asociaciones entre números enteros y caracteres. Proporciona métodos para agregar una asociación al mapa (agregarAsociacion), eliminar una asociación del mapa (eliminarAsociacion) y obtener el carácter asociado a un número (obtenerLetra).
+   - La clase Recuperacion_Eficiente_Window es una ventana en Java Swing que permite al usuario interactuar con una lista y varios botones. Permite agregar, generar y buscar pares de ID-valor, mostrando mensajes de error cuando corresponda.
 
 ### [Indexación y Visualización de Archivos]
 
