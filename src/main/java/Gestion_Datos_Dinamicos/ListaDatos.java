@@ -32,4 +32,10 @@ public class ListaDatos extends Observable {
     public List<Pareja> getParejas() {
         return parejas;
     }
+    public void agregarDato(Double dato) throws NoDataExcepcion {
+        if (dato == null) {
+            throw new NoDataExcepcion("Debes añadir algún valor");
+        }
+
+    }
 }
