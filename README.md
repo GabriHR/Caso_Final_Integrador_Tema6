@@ -90,7 +90,7 @@ Este proyecto final integrador desafía a los estudiantes a aplicar sus conocimi
 
    - Documentación y Presentación: ¿Está bien documentado y presentado el diseño, la implementación y el uso de cada herramienta?
 
-# CRITERIOS DE EVALUACIÓN + RÚBRICA
+# CRITERIOS DE EVALUACIÓN
 ### Funcionalidad y Correctitud (25%)
 
    - Excelente (100%): Todas las funcionalidades implementadas funcionan correctamente sin errores, y manejan casos extremos eficientemente. Cumple con todos los requisitos y especificaciones.
