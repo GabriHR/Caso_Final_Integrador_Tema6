@@ -1,6 +1,7 @@
 import Analisis_Organizacion_Informacion.Analisis_Window;
 import Gestion_Datos_Dinamicos.Gestion_Datos_Window;
 import Gestion_Datos_Dinamicos.ListaDatos;
+import Gestion_Datos_Dinamicos.NoDataExcepcion;
 import Gestion_Datos_Dinamicos.Pareja;
 import Analisis_Organizacion_Informacion.Analisis_Registros;
 import Analisis_Organizacion_Informacion.Ordenacion_Busqueda;
@@ -10,6 +11,7 @@ import Indexacion_Visualizacion_Archivos.Ordenacion_Listado;
 import Mapas_Asociacion_Datos.Gestion_Relaciones;
 import Mapas_Asociacion_Datos.Recuperacion_Eficiente;
 import Mapas_Asociacion_Datos.Gestion_Relaciones_Window;
+import Mapas_Asociacion_Datos.Recuperacion_Eficiente_Window;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,6 +23,7 @@ import java.io.File;
 import java.time.LocalDate;
 import java.util.*;
 
+
 public class Main extends JFrame implements Observer {
     private ListaDatos listaDatos;
     private JTextArea textArea;
@@ -29,6 +32,11 @@ public class Main extends JFrame implements Observer {
     private Random random;
     private Gestion_Relaciones relaciones;
     private Recuperacion_Eficiente recuperacion;
+    private HashMap<Integer, String> idMap;
+    private JButton generarIdButton;
+    private JButton buscarIdButton;
+    private JList<String> idList;
+    private DefaultListModel<String> listModel;
 
     // Nombres reales
     private String[] nombres = {"Rubén", "Nerea", "Nicolás", "José Carlos", "Daniel", "Jorge", "María", "Raúl", "Aleix", "Alex", "Carlos", "Ana", "Luis", "Sofía", "Miguel", "Patricia", "Antonio", "Carmen", "Manuel", "Teresa", "Isabel", "Francisco", "Laura", "Alberto", "Sara", "Fernando", "Susana", "Juan", "Lucía", "Diego"};
@@ -51,8 +59,11 @@ public class Main extends JFrame implements Observer {
 
         // Crear una instancia de Recuperacion_Eficiente
         recuperacion = new Recuperacion_Eficiente();
-        recuperacion.agregarAsociacion(1, 'a');
-        recuperacion.agregarAsociacion(2, 'b');
+        idMap = new HashMap<>();
+        generarIdButton = new JButton("Generar ID");
+        buscarIdButton = new JButton("Buscar ID");
+        listModel = new DefaultListModel<>();
+        idList = new JList<>(listModel);
 
         setLayout(new BorderLayout());
 
@@ -68,22 +79,15 @@ public class Main extends JFrame implements Observer {
         // Define the button panel
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new GridBagLayout());
+        buttonPanel.setLayout(new BorderLayout());
+        buttonPanel.setLayout(new FlowLayout());
 
-        // Define the exit button
-        JButton exitButton = new JButton("Salir");
-        exitButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0); // Cerrar la aplicación
-            }
-        });
-
-        //BOTON PARA AGREGAR DATOS
+        // En la clase Main
         JButton addButton = new JButton("Agregar dato");
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Instancia la clase GestionDatosWindow para abrir la nueva ventana
+                // Abre la ventana Gestion_Datos_Window cuando se hace clic en el botón
                 new Gestion_Datos_Window(listaDatos);
             }
         });
@@ -137,19 +141,7 @@ public class Main extends JFrame implements Observer {
         recuperacionEficienteButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Pedir al usuario una clave
-                String claveString = JOptionPane.showInputDialog("Introduce una clave:");
-                if (claveString != null) {
-                    try {
-                        int clave = Integer.parseInt(claveString);
-                        // Recuperar y mostrar la información asociada a la clave
-                        String texto = relaciones.obtenerTexto(clave);
-                        char letra = recuperacion.obtenerLetra(clave);
-                        JOptionPane.showMessageDialog(null, "Texto: " + texto + "\nLetra: " + letra);
-                    } catch (NumberFormatException ex) {
-                        JOptionPane.showMessageDialog(null, "La clave debe ser un número.");
-                    }
-                }
+                new Recuperacion_Eficiente_Window();
             }
         });
 
@@ -158,7 +150,7 @@ public class Main extends JFrame implements Observer {
         indexacionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new Indexacion_Recursiva_Window().setVisible(true);
+                new Indexacion_Recursiva_Window();
             }
         });
 
@@ -190,17 +182,42 @@ public class Main extends JFrame implements Observer {
             }
         });
 
-        // Agregar el botón al panel
-        buttonPanel.add(ordenacionListadoButton);
+
+        // Crear el botón de salir
+        JButton exitButton = new JButton("Salir");
+        exitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Cierra la aplicación
+                System.exit(0);
+            }
+        });
+
+        // Crear un panel adicional para el botón de salir
+        JPanel exitButtonPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        exitButtonPanel.add(exitButton);
+
+
+        // Add buttons to the panel
+        buttonPanel.add(addButton, BorderLayout.WEST);
+        buttonPanel.add(analysisButton, BorderLayout.NORTH);
+        buttonPanel.add(gestionRelacionesButton, BorderLayout.CENTER);
+        buttonPanel.add(recuperacionEficienteButton, BorderLayout.SOUTH);
+        buttonPanel.add(indexacionButton, BorderLayout.EAST);
+
+        // Add the exit button to the panel
+        buttonPanel.add(exitButton, BorderLayout.SOUTH);
 
         // Agregar los botones al panel
-        buttonPanel.add(addButton);
-        buttonPanel.add(analysisButton);
-        buttonPanel.add(gestionRelacionesButton);
-        buttonPanel.add(recuperacionEficienteButton);
-        buttonPanel.add(indexacionButton);
-        buttonPanel.add(exitButton);
+        buttonPanel.add(ordenacionListadoButton, BorderLayout.WEST);
+        buttonPanel.add(addButton, BorderLayout.NORTH);
+        buttonPanel.add(analysisButton, BorderLayout.CENTER);
+        buttonPanel.add(gestionRelacionesButton, BorderLayout.SOUTH);
+        buttonPanel.add(recuperacionEficienteButton, BorderLayout.NORTH);
+        buttonPanel.add(indexacionButton, BorderLayout.CENTER);
 
+        // Agregar el panel al JFrame principal
+        add(buttonPanel, BorderLayout.SOUTH); // Ajusta la ubicación según tus necesidades
         // Agregar el panel al JFrame principal
         add(buttonPanel, BorderLayout.SOUTH); // Ajusta la ubicación según tus necesidades
 
@@ -227,7 +244,7 @@ public class Main extends JFrame implements Observer {
         // Agregar la imagen al JFrame principal
         add(imageLabel, BorderLayout.CENTER);
 
-        setSize(960, 760); // Hacer la ventana más grande
+        setSize(1000, 800); // Hacer la ventana más grande
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Centrar la ventana en la pantalla
         setVisible(true);
