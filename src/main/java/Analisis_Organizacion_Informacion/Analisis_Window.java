@@ -28,7 +28,7 @@ public class Analisis_Window extends JFrame {
 
     private void initUI() {
         setLayout(new BorderLayout());
-        setSize(400, 300);
+        setSize(700, 400);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
@@ -112,6 +112,18 @@ public class Analisis_Window extends JFrame {
         });
         panel.add(filterButton);
 
+        // Agrega un nuevo botón para restablecer los filtros
+        JButton resetFiltersButton = new JButton("Restablecer filtros");
+        resetFiltersButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                resetFilters();
+            }
+        });
+
+        // Agrega el botón al panel
+        panel.add(resetFiltersButton);
+
         JButton backButton = new JButton("Volver al menú principal");
         backButton.addActionListener(new ActionListener() {
             @Override
@@ -123,6 +135,12 @@ public class Analisis_Window extends JFrame {
         filterButton.setPreferredSize(new Dimension(120, 30)); // Establecer un tamaño específico
 
         add(panel, BorderLayout.SOUTH);
+    }
+
+    private void resetFilters() {
+        // Restablece la lista de ventas a su estado original
+        ordenacionBusqueda.setVentasOrdenadas(new ArrayList<>(datosOriginales));
+        updateTable();
     }
 
     private void updateTable() {
